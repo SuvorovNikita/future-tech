@@ -1,0 +1,23 @@
+@use "../helpers" as *;
+
+.download-info {
+  display: inline-grid;
+  grid-template-columns: 1fr auto;
+  column-gap: rem(50);
+  align-items: center;
+
+  @include tablet {
+    row-gap: rem(30);
+  }
+
+  &__team {
+    --person-size: #{rem(50)};
+
+    background-color: var(--color-dark);
+    border-radius: rem(12);
+
+    @include laptop {
+      --person-size: #{rem(40)};
+    }
+  }
+}
