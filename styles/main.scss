@@ -30,9 +30,11 @@
 @use "blocks/bordered-grid";
 @use "blocks/rating-view";
 @use "blocks/review-card";
+@use "blocks/about";
+@use "blocks/about-card";
 
-.header,
-main > *:not(:last-child),
-.footer {
-  display: none !important;
-}
+// .header,
+// main > *:not(:last-child),
+// .footer {
+//   display: none !important;
+// }
